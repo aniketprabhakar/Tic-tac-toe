@@ -1,15 +1,26 @@
 # Tic-tac-toe
 
-Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game. To add this project to android studio.
+Tic-Tac-Toe game in Python.
+
+# Objective:
+
+This project aims to develop a Tic Tac Toe game using python. It mainly consists of developing and implementing a computer program that plays Tic Tac Toe against another player.
+In order to understand what Tic Tac Toe game is and how to play the game, below is the description.
+
+# About the Game:
+
+Tic-tac-toe is a paper-and-pencil game for two players, X and O, who take turns marking the spaces in a 3×3 grid. The two players take turns putting marks on a 3x3 board. The goal of Tic Tac Toe game is to be one of the players to get three same symbols in a row - horizontally, vertically or diagonally on a 3 x 3 grid. The player who first gets 3 of his/her symbols (marks) in a row - vertically, horizontally, or diagonally wins the game, and the other loses the game. 
 
 Features
 Single Player with Difficulty levels
 Two Player
 
-Getting started
+# Rules:
 
-In android studio goto file
-Select new > Import from version control
-Choose git / github (git option recommanded )
-Paste url to repository i.e https://github.com/aniketprabhakar/Tic-tac-toe
-Click on clone.
+A player can choose between two symbols with his opponent, usual game uses “X” and “O”.
+
+1. The player that gets to play first will get the "X" mark (we call him/her player 1) and the player that gets to play second will get the "O" mark (we call him/her player 2).
+2. Player 1 and 2 take turns making moves with Player 1 playing mark “X” and Player 2 playing mark “O”.
+3. A player marks any of the 3x3 squares with his mark (“X” or “O”) and their aim is to create a straight line horizontally, vertically or diagonally with two intensions:
+* One of the players gets three of his/her marks in a row (vertically, horizontally, or diagonally) i.e. that player wins the game.
+* If no one can create a straight line with their own mark and all the positions on the board are occupied, then the game ends in a draw/tie.
